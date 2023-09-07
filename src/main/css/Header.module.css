@@ -1,6 +1,20 @@
-.topMenu{
+.header{
     width: 90%;
-    height: 100px;
-    margin-top: 15px;
-    background: #61dafb;
+    height: 10%;
+    background: lightgray;
+    position: absolute;
+}
+
+.title{
+    width: 70%;
+    font-size: 100%;
+    text-align: left;
+    position: absolute;
+}
+
+.total{
+    width: 70%;
+    font-size: 100%;
+    text-align: right;
+    position: absolute;
 }

@@ -1,20 +1,15 @@
-import React, {Component} from 'react';
-import Header from "./Header";
+import React from 'react';
 import Board from "../board/Board";
-import Footer from "./Footer";
+import Header from "./Header";
 
-class Main extends Component {
-    render() {
-        return (
-            <>
-                <div>
-                    <Header/>
-                    <Board />
-                    <Footer/>
-                </div>
-            </>
-        );
-    }
+
+function Main() {
+    return (
+        <>
+            <Header/>
+            <Board/>
+        </>
+    );
 }
 
 export default Main;
