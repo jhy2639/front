@@ -1,13 +1,10 @@
 import React from 'react';
-import Board from "../board/Board";
-import Header from "./Header";
-
+import Login from "../login/Login";
 
 function Main() {
     return (
         <>
-            <Header/>
-            <Board/>
+            <Login/>
         </>
     );
 }

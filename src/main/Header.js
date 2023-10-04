@@ -4,10 +4,9 @@ import style from "./css/Header.module.css";
 function Header() {
     return (
         <div className={style.header}>
-            <span className={style.title}>모임이름</span>
-            <span className={style.total}>won 통장잔고</span>
+            <div className={style.title}>모임이름</div>
+            <div className={style.total}>dasdf</div>
         </div>
     );
 }
-
 export default Header;
